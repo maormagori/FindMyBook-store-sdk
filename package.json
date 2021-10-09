@@ -19,5 +19,9 @@
   ],
   "dependencies": {
     "fastify": "^3.22.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maormagori/FindMyBook-store-sdk"
   }
 }
