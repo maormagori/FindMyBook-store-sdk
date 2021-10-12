@@ -20,7 +20,7 @@ type path = {
 };
 
 type edition = {
-    print: "paperbook" | "digital" | "secondhand";
+    storeId: string | number;
     price: number;
 };
 
@@ -37,5 +37,9 @@ export type book = {
     pages?: number;
     isbn?: string;
     danacode?: string;
-    editions: edition[];
+    editions?: {
+        paperbook?: edition[];
+        digital?: edition[];
+        secondhand?: edition[];
+    };
 };
