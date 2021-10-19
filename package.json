@@ -9,7 +9,7 @@
     "prepare": "npm run build",
     "build": "tsc"
   },
-  "author": "Maor Magori",
+  "author": "Maor Magori <maor@magori.online>",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@types/node": "^16.10.3",
