@@ -1,5 +1,4 @@
 import Fastify, { FastifyReply, FastifyRequest } from "fastify";
-//import express = require('express');
 import { book, manifest } from "../types";
 import type { workerHandlers } from "./worker";
 
@@ -49,4 +48,8 @@ const createWorkerRouter = (
             }
         }
     );
+
+    return fastify;
 };
+
+export default createWorkerRouter;
