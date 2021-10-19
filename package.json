@@ -1,6 +1,6 @@
 {
   "name": "@findmybook/toolkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A FindMyBook worker's sdk",
   "main": "index.js",
   "types": "lib/index.d.ts",
@@ -19,7 +19,8 @@
     "lib/**/*"
   ],
   "dependencies": {
-    "fastify": "^3.22.0"
+    "fastify": "^3.22.0",
+    "ts-md5": "^1.2.9"
   },
   "repository": {
     "type": "git",
