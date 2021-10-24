@@ -1,8 +1,8 @@
 {
   "name": "@findmybook/toolkit",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A FindMyBook worker's sdk",
-  "main": "index.js",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "test",
