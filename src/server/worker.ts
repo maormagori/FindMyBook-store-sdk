@@ -42,7 +42,9 @@ class worker {
         };
 
         let address = await this.server.listen(options);
-        console.log(`Your worker is up and running on: ${address}`);
+        console.log(
+            `Your ${this.manifest.name} worker is up and running on: ${address}`
+        );
     }
 
     validateAndCreateServer() {
